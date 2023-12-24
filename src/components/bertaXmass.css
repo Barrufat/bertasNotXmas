@@ -1,0 +1,114 @@
+div.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.containerBall {
+  width: 80vh;
+  height: auto;
+}
+
+div.libreriaOpen {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+div.libreriaClosed {
+  display: none;
+}
+
+.casilla {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.casillaCursor {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  cursor: grabbing;
+}
+
+.casilla img:first-child {
+  display: flex;
+}
+
+.casilla img:last-child {
+  display: none;
+}
+
+.casilla:hover img:last-child {
+  display: flex;
+}
+
+.casilla:hover img:first-child {
+  display: none;
+}
+
+.columnA {
+  display: flex;
+  flex-direction: column;
+  width: 274px;
+}
+
+.columnB {
+  display: flex;
+  flex-direction: column;
+  width: 591px;
+}
+
+.columnC {
+  display: flex;
+  flex-direction: column;
+  width: 585;
+}
+
+.columnD {
+  display: flex;
+  flex-direction: column;
+  width: 594px;
+}
+
+.columnE {
+  display: flex;
+  flex-direction: column;
+  width: 575px;
+}
+
+.columnF {
+  display: flex;
+  flex-direction: column;
+  width: 324px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 230px);
+  gap: 20px;
+  padding: 20px;
+}
+
+.title{
+  position: relative;
+  display: block;
+  margin: auto;
+  width: 70%;
+  margin-bottom: -8vh;
+  z-index: 1;
+}
+
+video.open {
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+}
+
+video.closed {
+  display:none;
+}
